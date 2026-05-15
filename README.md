@@ -7,7 +7,7 @@ Notes and write-ups from my **TRYHACKME** learning paths — documenting my prog
 
 | Module | Description |
 |:--|:--|
-| [Cybersecurity-101](Cybersecurity-101) | Windows & Linux Fundamentals, SIEM, AD, CLI, Cryptography, Defensive Security & Tooling |
+| [Cybersecurity-101](Cybersecurity-101) | Windows & Linux Fundamentals, SIEM, Active Directory, Cryptography, Offensive and Defensive Security |
 | [SOC-Level-1](SOC-Level-1) | In progress.. |
 
 ---
