@@ -1,5 +1,5 @@
 # 🧠 Blue Team & SOC Learning Portfolio
-Documenting my journey from cybersecurity fundamentals toward becoming a job-ready SOC ANALYST through hands-on labs and blue team learning paths.
+Documenting my journey from cybersecurity fundamentals toward becoming a job-ready **SOC Analyst** through hands-on labs and blue team learning paths.
 
 ---
 
