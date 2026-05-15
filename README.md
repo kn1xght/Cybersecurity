@@ -7,8 +7,8 @@ Notes and write-ups from my **TRYHACKME** learning paths — documenting my prog
 
 | Module | Description |
 |:--|:--|
-| [Cybersecurity-101](Cybersecurity 101) | Advanced Networking, CLI, Cryptography, Exploitation, AD, SIEM & Tooling, SOC |
-| [SOC-Level-1](SOC Level 1) | In progress.. |
+| [Cybersecurity-101](Cybersecurity-101) | Advanced Networking, CLI, Cryptography, Exploitation, AD, SIEM & Tooling, SOC |
+| [SOC-Level-1](SOC-Level-1) | In progress.. |
 
 ---
 
