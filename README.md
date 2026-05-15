@@ -1,5 +1,5 @@
 # 🧠 CYBERSECURITY LEARNING PORTFOLIO
-Notes and write-ups from my **TRYHACKME** learning paths — documenting my progress from fundamentals to job-ready blue team operative. 
+Notes and write-ups from my **TRYHACKME** learning paths — documenting my progress from fundamentals to job-ready **BLUE TEAM** operative. 
 
 ---
 
