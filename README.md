@@ -22,7 +22,7 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 ---
 
 ## 🛠️ Tools & Platforms
-- **Try Hack Me** (guided practical learning)
+- **Try Hack Me / Hack The Box** (guided practical learning)
 - **Visual Studio Code** (for writing and formatting notes)
 - **Github** (for version control and documentation)
 
