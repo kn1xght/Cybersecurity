@@ -1,5 +1,5 @@
-# 🧠 CYBERSECURITY LEARNING PORTFOLIO
-Notes and write-ups from my **TRYHACKME** learning paths — documenting my progress from fundamentals to job-ready **BLUE TEAM** operative. 
+# 🧠 Ante Stanic | BlUE TEAM & SOC LEARNING PORTFOLIO
+Documenting my journey from cybersecurity fundamentals toward becoming a job-ready **SOC ANALYST** through hands-on labs and blue team learning paths.
 
 ---
 
@@ -18,15 +18,15 @@ To build a **STRONG CYBERSECURITY FOUNDATION** and transition into a **BLUE TEAM
 ---
 
 ## 🛠️ Tools Used
-- **Try Hack Me** (guided practical learning)
-- **Visual Studio Code** (for writing and formatting notes)
-- **GitHub** (for version control and documentation)
+- **TRY HACK ME** (guided practical learning)
+- **VISUAL STUDIO CODE** (for writing and formatting notes)
+- **GITHUB** (for version control and documentation)
 
 ---
 
 ## 💬 About
 This repository serves as my personal study log and public portfolio.  
-Each folder mirrors a TryHackMe path and contains write-ups of every completed room.
+Each folder mirrors a TryHackMe path and contains notes of every completed room.
 
 ---
 
