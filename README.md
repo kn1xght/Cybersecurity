@@ -8,7 +8,7 @@ Notes and write-ups from my **TRYHACKME** learning paths — documenting my prog
 | Module | Description |
 |:--|:--|
 | [Cybersecurity-101](Cybersecurity-101) | Windows & Linux Fundamentals, SIEM, Active Directory, Cryptography, Defensive Security |
-| [SOC-Level-1](SOC-Level-1) | Splunk, Elastic, EDR, Alert Triage, Log Analysis, Phishing, MITRE ATT&CK |
+| [SOC-Level-1](SOC-Level-1) | Splunk & Elastic, EDR, Alert Triage, Log Analysis, Phishing, MITRE ATT&CK |
 
 ---
 
