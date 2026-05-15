@@ -1,5 +1,5 @@
 # 🧠 Blue Team & SOC Learning Portfolio
-Documenting my journey from cybersecurity fundamentals toward becoming a job-ready **SOC ANALYST** through hands-on labs and blue team learning paths.
+Documenting my journey from cybersecurity fundamentals toward becoming a job-ready Soc Analyst through hands-on labs and blue team learning paths.
 
 ---
 
@@ -12,11 +12,6 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 
 ---
 
-## 🎯 Goal
-To build a **STRONG CYBERSECURITY FOUNDATION** and transition into a **BLUE TEAM** role through consistent, documented hands-on learning.
-
----
-
 ## 🛠️ Tools & Platforms Used
 - **Try Hack Me** (guided practical learning)
 - **Visual Studio Code** (for writing and formatting notes)
@@ -24,13 +19,7 @@ To build a **STRONG CYBERSECURITY FOUNDATION** and transition into a **BLUE TEAM
 
 ---
 
-## 💬 About
-This repository serves as my personal study log and public portfolio.  
-Each folder mirrors a TryHackMe path and contains notes of every completed room.
-
----
-
 ## 💬 Message to Readers
-Don’t hesitate to reach out with feedback or criticism about any of my notes or documentation. I’m always open to improving and learning from others.
+Feedback and constructive criticism are always welcome as I continue improving and expanding this portfolio.
 
 
