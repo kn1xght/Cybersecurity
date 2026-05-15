@@ -7,10 +7,8 @@ Notes and write-ups from my **TRYHACKME** learning paths — documenting my prog
 
 | Module | Description |
 |:--|:--|
-| [Pre-Security](Pre-Security) | Introduction to Cybersecurity, Networking, Windows/Linux Basics, Web Architecture |
-| [Cybersecurity-101](Cybersecurity-101) | Advanced Networking, CLI, Cryptography, Exploitation, AD, SIEM & Tooling, SOC |
-| [Security-Analyst](Security-Analyst) | In progress.. |
-| [Penetration-Tester](Penetration-Tester) | In progress.. |
+| [Cybersecurity 101](Cybersecurity 101) | Advanced Networking, CLI, Cryptography, Exploitation, AD, SIEM & Tooling, SOC |
+| [SOC Level 1](SOC Level 1) | In progress.. |
 
 ---
 
@@ -23,8 +21,6 @@ To build a **STRONG CYBERSECURITY FOUNDATION** and transition into a **BLUE TEAM
 - **Try Hack Me** (guided practical learning)
 - **Visual Studio Code** (for writing and formatting notes)
 - **GitHub** (for version control and documentation)
-- **Linux / Ubuntu** (for SOC and blue team exercises)
-- **Kali Linux** (for understanding offensive tooling)
 
 ---
 
