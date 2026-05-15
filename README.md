@@ -1,4 +1,4 @@
-# 🧠 Ante Stanic | BlUE TEAM & SOC LEARNING PORTFOLIO
+# 🧠 Blue Team & SOC Learning Portfolio
 Documenting my journey from cybersecurity fundamentals toward becoming a job-ready **SOC ANALYST** through hands-on labs and blue team learning paths.
 
 ---
@@ -17,10 +17,10 @@ To build a **STRONG CYBERSECURITY FOUNDATION** and transition into a **BLUE TEAM
 
 ---
 
-## 🛠️ Tools Used
-- **TRY HACK ME** (guided practical learning)
-- **VISUAL STUDIO CODE** (for writing and formatting notes)
-- **GITHUB** (for version control and documentation)
+## 🛠️ Tools & Platforms Used
+- **Try Hack Me** (guided practical learning)
+- **Visual Studio Code** (for writing and formatting notes)
+- **Github** (for version control and documentation)
 
 ---
 
