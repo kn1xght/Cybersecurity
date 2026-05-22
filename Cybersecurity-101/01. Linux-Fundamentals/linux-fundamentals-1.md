@@ -41,4 +41,4 @@ The **major** advantage of using something like Ubuntu is how lightweight it is.
 
 ### Takeaway
 
-After successfully installing Ubuntu on my device and experimenting with basic navigation and commands, I’m starting to notice major differences compared to the operating system I’ve used my whole life — Windows. Even though my use of these commands is still limited and slow, I can already tell that with practice and familiarity, this workflow could drastically speed up the entire work process.
+After successfully installing Ubuntu on my device and experimenting with basic navigation and commands, I’m starting to notice major differences compared to the operating system I’ve used my whole life.. Windows. Even though my use of these commands is still limited and slow, I can already tell that with practice and familiarity, this workflow could drastically speed up ones entire work process.
