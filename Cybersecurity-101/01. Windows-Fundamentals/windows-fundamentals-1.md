@@ -34,7 +34,7 @@ One interesting feature available in Windows 11 Pro is BitLocker Device Encrypti
 
 Windows 11 GUI (Graphical User Interface)
 
-![Windows 11 GUI](images/windows11gui.jpg)
+![Windows 11 GUI](images/windows-gui.jpg)
 
 Core GUI components include:
 
@@ -143,7 +143,7 @@ To check which file system a drive is using:
 
 NTFS Permissions
 
-![NTFS Permissions](images/ntfs-permissions1.png)
+![NTFS Permissions](images/ntfs-permissions.png)
 
 ---
 
@@ -265,3 +265,5 @@ Task Manager can be opened quickly by right-clicking the taskbar or by using the
 ## TAKEAWAY
 
 Even though Windows has been my primary operating system for many years, this room still managed to humble me a bit. I had encountered plenty of UAC “allow this app to make changes” pop-ups before, but I never really understood how UAC works or what its actual purpose is. I was already somewhat familiar with most of the other concepts covered here, but the room still served as a useful refresher. It reinforced the idea that understanding the fundamentals properly matters, especially when approaching IT as a technician rather than just a regular user.
+
+![Windows Control Panel](images/room-completion.png)
