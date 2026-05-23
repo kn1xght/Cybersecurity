@@ -1,6 +1,6 @@
 # WINDOWS FUNDAMENTALS 1
 
-**Date:** 2026-05-23
+Date: 2026-05-23
 
 ---
 
@@ -21,18 +21,18 @@ This is Microsoft's enterprise solution, mainly used for:
 
 | Area | Purpose |
 |---|---|
-| **Centralized management** | Managing users, devices, and policies |
-| **Authentication** | Handling user login and access control |
-| **Networking** | Supporting services across enterprise networks |
-| **Infrastructure administration** | Managing servers, services, and business systems |
+| Centralized management | Managing users, devices, and policies |
+| Authentication | Handling user login and access control |
+| Networking | Supporting services across enterprise networks |
+| Infrastructure administration | Managing servers, services, and business systems |
 
-One interesting feature available in **Windows 11 Pro** is **BitLocker Device Encryption**, which encrypts the drive and helps prevent unauthorized access to the system.
+One interesting feature available in Windows 11 Pro is **BitLocker Device Encryption**, which encrypts the drive and helps prevent unauthorized access to the system.
 
 ---
 
 ## INTRODUCTION TO WINDOWS
 
-### Windows 11 GUI (Graphical User Interface)
+Windows 11 GUI (Graphical User Interface)
 
 ![Windows 11 GUI](images/windows11gui.jpg)
 
@@ -40,11 +40,11 @@ Core GUI components include:
 
 | Component | Purpose |
 |---|---|
-| **Start Menu** | Access applications, files, and settings |
-| **Task View** | View active desktops and windows |
-| **Taskbar** | Quick access to applications and features |
-| **Toolbars** | Additional utility shortcuts |
-| **Notification Area** | Displays system notifications and status icons |
+| Start Menu | Access applications, files, and settings |
+| Task View | View active desktops and windows |
+| Taskbar | Quick access to applications and features |
+| Toolbars | Additional utility shortcuts |
+| Notification Area | Displays system notifications and status icons |
 
 Windows 11 is highly customizable, allowing users to personalize:
 
@@ -55,22 +55,22 @@ Windows 11 is highly customizable, allowing users to personalize:
 
 ---
 
-### The Start Menu
+The Start Menu
 
-The **Start Menu** provides access to:
+The Start Menu provides access to:
 
 - applications
 - files
 - settings
 - utility tools
 
-In older Windows versions, the button contained the word **"Start"**, while modern versions only display the Windows logo.
+In older Windows versions, the button contained the word "Start", while modern versions only display the Windows logo.
 
 ---
 
-### The Taskbar
+The Taskbar
 
-The **taskbar** allows quick access to:
+allows quick access to:
 
 - running applications
 - pinned applications
@@ -78,9 +78,9 @@ The **taskbar** allows quick access to:
 
 Features such as:
 
-- **News & Interests**
-- **Cortana**
-- **Widgets**
+- News & Interests
+- Cortana
+- Widgets
 
 can be enabled or disabled depending on user preference.
 
@@ -88,9 +88,9 @@ Personally, I prefer having most of these disabled since they can clutter the in
 
 ---
 
-### The Notification Area
+The Notification Area
 
-Unlike the Start Menu, the **Notification Area** is located in the bottom-right corner of the screen near the system clock.
+Unlike the Start Menu, the Notification Area is located in the bottom-right corner of the screen near the system clock.
 
 It displays:
 
@@ -107,12 +107,12 @@ This area can also display useful security and system notifications.
 
 ## THE FILE SYSTEM
 
-Modern versions of Windows primarily use **NTFS (New Technology File System)**.
+Modern versions of Windows primarily use NTFS (New Technology File System).
 
 Before NTFS, Windows commonly used:
 
-- **FAT16/FAT32** (*File Allocation Table*)
-- **HPFS** (*High Performance File System*)
+- FAT16/FAT32 (*File Allocation Table*)
+- HPFS (*High Performance File System*)
 
 These older file systems can still often be found on:
 
@@ -122,20 +122,20 @@ These older file systems can still often be found on:
 
 ---
 
-### NTFS Improvements Over FAT
+NTFS Improvements Over FAT
 
 | Feature | NTFS Support |
 |---|---|
-| **Files larger than 4GB** | Yes |
-| **File and folder compression** | Yes |
-| **Encryption through EFS** | Yes |
-| **Automatic repair using logs** | Yes |
+| Files larger than 4GB | Yes |
+| File and folder compression | Yes |
+| Encryption through EFS | Yes |
+| Automatic repair using logs | Yes |
 
 One useful NTFS feature is automatic repair functionality using information stored in log files, something FAT does not support.
 
 ---
 
-### Lesson
+LESSON
 
 To check which file system a drive is using:
 
@@ -143,13 +143,13 @@ To check which file system a drive is using:
 
 ---
 
-### NTFS Permissions
+NTFS Permissions
 
 ![NTFS Permissions](images/ntfs-permissions1.png)
 
 ---
 
-### Lesson
+LESSON
 
 To view file or folder permissions:
 
@@ -157,9 +157,9 @@ To view file or folder permissions:
 
 ---
 
-### Alternate Data Streams (ADS)
+Alternate Data Streams (ADS)
 
-NTFS also supports **Alternate Data Streams (ADS)**.
+NTFS also supports Alternate Data Streams (ADS).
 
 ADS allows hidden metadata or additional data to be attached to a file without changing its main contents.
 
@@ -195,18 +195,18 @@ A typical local Windows system mainly uses two account types:
 
 | Account Type | Description |
 |---|---|
-| **Administrator** | Can modify system settings, manage users/groups, install software, and perform elevated actions |
-| **Standard User** | Can perform regular day-to-day tasks, but cannot make system-level changes |
+| Administrator | Can modify system settings, manage users/groups, install software, and perform elevated actions |
+| Standard User | Can perform regular day-to-day tasks, but cannot make system-level changes |
 
 ---
 
-### Lesson
+LESSON
 
 Information about local users and groups can be accessed through:
 
 `lusrmgr.msc`
 
-This opens **Local Users and Groups Management**.
+This opens Local Users and Groups Management.
 
 ---
 
@@ -218,7 +218,7 @@ Users do not need elevated privileges for normal activities such as:
 - watching media
 - working with documents
 
-To reduce the risk of malware gaining full system access, Microsoft introduced **User Account Control (UAC)**.
+To reduce the risk of malware gaining full system access, Microsoft introduced User Account Control (UAC).
 
 When an administrator logs into Windows, the session does not automatically run with elevated privileges.
 
@@ -232,20 +232,20 @@ I had encountered this confirmation popup many times before, but never really un
 
 The two primary locations for configuring Windows are:
 
-- **Settings**
-- **Control Panel**
+- Settings
+- Control Panel
 
 ![Windows Settings](images/win-settings.png)
 
 ![Windows Control Panel](images/win-control-panel.png)
 
-**Control Panel** generally contains more advanced and detailed system configuration options.
+Control Panel generally contains more advanced and detailed system configuration options.
 
 ---
 
 ## TASK MANAGER
 
-**Task Manager** provides information about:
+Task Manager provides information about:
 
 - running applications
 - processes
@@ -255,10 +255,10 @@ It also displays:
 
 | Resource | What It Shows |
 |---|---|
-| **CPU** | Processor usage |
-| **RAM** | Memory usage |
-| **Disk** | Disk activity |
-| **Network** | Network utilization |
+| CPU | Processor usage |
+| RAM | Memory usage |
+| Disk | Disk activity |
+| Network | Network utilization |
 
 Task Manager can be opened quickly by right-clicking the taskbar.
 
@@ -266,6 +266,4 @@ Task Manager can be opened quickly by right-clicking the taskbar.
 
 ## TAKEAWAY
 
-Even though Windows has been my primary operating system for many years, this room still managed to humble me a bit.
-
-Most of the concepts covered here were already somewhat familiar to me, but it was still a useful refresher and a reminder that understanding the basics properly matters, especially when approaching cybersecurity and system administration.
+Even though Windows has been my primary operating system for many years, this room still managed to humble me a bit. Even though I came across many UAC "permit this file from executing" pop-ups, I wasn't aware how it ran and it's main purpose. For the rest of the covered concepts here I was already somewhat familiar to, but it was still a useful refresher and a reminder that understanding the basics properly matters, especially when approaching IT as a technician, rather than a user. 
