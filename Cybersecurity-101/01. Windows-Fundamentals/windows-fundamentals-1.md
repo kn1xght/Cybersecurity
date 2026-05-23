@@ -1,100 +1,267 @@
-WINDOWS EDITIONS
+# WINDOWS FUNDAMENTALS 1
 
-Many versions of Windows since the 1985, some of the notable mentions being the Windows 95, XP, Vista, 7, 10, 11
-Alongside the operating system, exists the Windows Server, current version being 2025. This is the enterprise solution, it's a management software in a nutshell that provides many tools and services to enterprise IT. 
-Fun fact if you can't decide between the home and pro version of windows 11, pro version has the ability to use bitlocker device encryption. (basically locks the device completely, preventing anyone else accessing ur system)
+Date: 2026-05-23
 
-INTRODUCTION TO WINDOWS 
+---
+
+## WINDOWS EDITIONS
+
+Microsoft Windows has existed since 1985, with some notable versions being:
+
+- Windows 95
+- Windows XP
+- Windows Vista
+- Windows 7
+- Windows 10
+- Windows 11
+
+Alongside the standard operating system, Microsoft also develops Windows Server, currently on version 2025.
+
+This is Microsoft's enterprise solution, mainly used for:
+
+| Area | Purpose |
+|---|---|
+| Centralized management | Managing users, devices, and policies |
+| Authentication | Handling user login and access control |
+| Networking | Supporting services across enterprise networks |
+| Infrastructure administration | Managing servers, services, and business systems |
+
+One interesting feature available in Windows 11 Pro is BitLocker Device Encryption, which encrypts the drive and helps prevent unauthorized access to the system.
+
+---
+
+## INTRODUCTION TO WINDOWS
 
 Windows 11 GUI (Graphical User Interface)
 
-![Task Manager](images/windows11gui.jpg)
+![Windows 11 GUI](images/windows11gui.jpg)
 
-Contains elements such as: 
-1. Start Menu
-2. Task View
-3. Taskbar
-4. Toolbars
-5. Notification Area
+Core GUI components include:
 
-INTRODUCTION TO WINDOWS 
+| Component | Purpose |
+|---|---|
+| Start Menu | Access applications, files, and settings |
+| Task View | View active desktops and windows |
+| Taskbar | Quick access to applications and features |
+| Toolbars | Additional utility shortcuts |
+| Notification Area | Displays system notifications and status icons |
 
-Windows 11 is extremely customizable, it allows you to suit it to your liking (wallpapers, themes, colors etc), one of many perks I like to spend hours of my time on. (oops)
+Windows 11 is highly customizable, allowing users to personalize:
+
+- wallpapers
+- themes
+- colors
+- layouts
+
+---
 
 The Start Menu 
 
-Provides access to all apps/programs, files, utility tools etc. You can find it on bottom left corner, in previous versions there was a "Start" word indicating it, newer ones only contain the windows logo within the box. 
+provides access to:
 
-The Taskbar
+- applications
+- files
+- settings
+- utility tools
 
-Allows us to enable/disable cool neat features such as news/interests, cortana. I like to have them disabled personally, if left unmanaged, they can start cluttering your screen really quickly.  
+In older Windows versions, the button contained the word "Start", while modern versions only display the Windows logo.
+
+---
+
+The Taskbar 
+
+allows quick access to:
+
+- running applications
+- pinned applications
+- system features
+
+Features such as:
+
+- News & Interests
+- Cortana
+- Widgets
+
+can be enabled or disabled depending on user preference.
+
+Personally, I prefer having most of these disabled since they can clutter the interface fairly quickly if left unmanaged.
+
+---
 
 The Notification Area
 
-Unlike Start Menu, notification area is to be found on the bottom right of the Windows screen, where the date and time are displayed alongside many other things that can be toggled on/off, some of which include location, touch keyboard, microphone etc.
+located in the bottom-right corner of the screen near the system clock and displays:
 
-This short introduction to some of the features Windows contains is only scratching the surface, in reality it is a complex product with many system files, utilities and settings that we will learn about as we dive deeper into the write-ups.
+- network connectivity
+- microphone access
+- audio settings
+- location services
+- touch keyboard
+- background applications
 
-THE FILE SYSTEM
+This area can also display useful security and system notifications.
 
-The file system used in modern versions of Windows is the New Technology File System or simply NTFS. 
+---
 
-Before NFTS, we had FAT16/FAT32 (File allocation table) and HPFS(High Performance File System). These can still be seen in use today, typically in USB devices, MicroSD cards etc. It's limitations are addressed by NTFS which were:
+## THE FILE SYSTEM
 
-Supporting files larger than 4GB
-Folder and file compression
-Encryption (Encryption File System or EFS)
+Modern versions of Windows primarily use NTFS (New Technology File System).
 
-A very nice feature of the newer NTFS is that it can automatically repair the folders/files on disk using information stored in a log file. FAT doesn't allow for this. 
+Before NTFS, Windows commonly used:
 
-LESSON: To check what file system OS is using, right click on the drive where OS is installed, typically C drive -> properties -> listed at the top. 
+- FAT16/FAT32 (*File Allocation Table*)
+- HPFS (*High Performance File System*)
 
-NTFS permissions are as follow:  
+These older file systems can still often be found on:
 
-![Task Manager](images/ntfs-permissions1.png)
+- USB drives
+- MicroSD cards
+- older devices
 
-LESSON: To check permissions for files/folders, right click -> properties -> Security tab
+---
 
-Another NTFS feature is Alternate Data Streams (ADS). It allows hidden metadata or additional data to be attached to a file without changing its main contents. For example, telling us whether the file was downloaded from the internet (Zone.Identifier).
+NTFS Improvements Over FAT
 
-THE WINDOWS/SYSTEM32 FOLDERS
+| Feature | NTFS Support |
+|---|---|
+| Files larger than 4GB | Yes |
+| File and folder compression | Yes |
+| Encryption through EFS | Yes |
+| Automatic repair using logs | Yes |
 
-The windows folder is known as the folder which contains the Windows Operating system, typically sitting on the C drive for most users, but we're allowed to install it on any driver we wish to. 
+One useful NTFS feature is automatic repair functionality using information stored in log files, something FAT does not support.
 
-System variable for the Windows folder is %windir% (windows directory). One of many folders inside is the "System 32", it holds important files that are critical for the operating system's function. Approach with caution when modifying anything relating to this folder, it can make it inoperational.
+---
 
-USER ACCOUNTS, PROFILES AND PERMISSIONS
+LESSON
 
-On a typical local Windows system they come in 2 flavours: 
+To check which file system a drive is using:
 
-Administrator (enabled to make changes to system, add/delete users, modify groups, modify settings etc.)
-Standard User (enabled to make changes locally, think folders/files & can't perform system-level changes.)
+`Right-click drive → Properties`
 
-LESSON: Way to access information on existing users, groups, permissions and much more is to use Local User and Group Management. Right-click on the Start Menu and type in lusrmgr.msc. You should see two folders: Users and Groups, information about existing users/groups etc. will be stored here. 
+---
 
-USER ACCOUNT CONTROL: 
+NTFS Permissions
 
-A user doesn't need to run with high (elevated) privileges on the system if the user only wishes to perform tasks such as surfing the internet, working on Word document etc. Elevated privilege increases the risk of system compromise because it makes it easier for malware to infect the system. To prevent this, Microsoft introduced User Account Control (UAC).
+![NTFS Permissions](images/ntfs-permissions1.png)
 
-How does it work? When a user with an admin account logs into system, the current session doesn't run with elevated permissions. When an operation requiring higher-level privileges needs to executre, the user will be prompted to confirm if they permit the operation to run. 
+---
 
-SETTINGS AND CONTROL PANEL
+LESSON
 
-The primary way to make changes are the Settings and Control Panel menus. 
+To view file or folder permissions:
 
-Let's first take a look at how each looks: 
+`Right-click → Properties → Security tab`
 
-![Task Manager](images/win-settings.png)
+---
 
-![Task Manager](images/win-control-panel.png)
+Alternate Data Streams (ADS)
 
-Control Panel is really the menu where you will access more complex settings and perform more complex actions. 
+NTFS also supports Alternate Data Streams (ADS).
 
-TASK MANAGER
+ADS allows hidden metadata or additional data to be attached to a file without changing its main contents.
 
-Provides information about the applications and processes currently running on the system. Also displays information such as how much CPU and RAM are being utilized, which falls under the Performance tab. 
-This tool is easily accessible by right-clicking the taskbar. 
+One example is:
 
-CONCLUSION
+`Zone.Identifier`
 
-Even though Windows OS has been my go-to choice over many years now I was still humbled by this short introduction. I came across the UAC "confirm with authenticity" pop-up many times by now, but I never quite knew what was the process behind it. The rest of the information in this room I had came across and was well familiar with, however it doesn't hurt to get a refresher. 
+This can indicate whether a file was downloaded from the internet.
+
+---
+
+## THE WINDOWS/SYSTEM32 FOLDERS
+
+The Windows folder contains the operating system files and is usually located on the `C:` drive by default.
+
+The system variable for this folder is:
+
+`%windir%`
+
+One important subfolder is:
+
+`System32`
+
+This directory contains critical operating system files and utilities.
+
+Modifying files inside this folder carelessly can make the operating system unstable or unusable.
+
+---
+
+## USER ACCOUNTS, PROFILES AND PERMISSIONS
+
+A typical local Windows system mainly uses two account types:
+
+| Account Type | Description |
+|---|---|
+| Administrator | Can modify system settings, manage users/groups, install software, and perform elevated actions |
+| Standard User | Can perform regular day-to-day tasks, but cannot make system-level changes |
+
+---
+
+LESSON
+
+Information about local users and groups can be accessed through:
+
+`lusrmgr.msc`
+
+This opens Local Users and Groups Management.
+
+---
+
+## USER ACCOUNT CONTROL (UAC)
+
+Users do not need elevated privileges for normal activities such as:
+
+- browsing the web
+- watching media
+- working with documents
+
+To reduce the risk of malware gaining full system access, Microsoft introduced User Account Control (UAC).
+
+When an administrator logs into Windows, the session does not automatically run with elevated privileges.
+
+If an action requires higher permissions, Windows prompts the user to confirm the operation.
+
+I had encountered this confirmation popup many times before, but never really understood what was happening behind the scenes until now.
+
+---
+
+## SETTINGS AND CONTROL PANEL
+
+The two primary locations for configuring Windows are:
+
+- Settings
+- Control Panel
+
+![Windows Settings](images/win-settings.png)
+
+![Windows Control Panel](images/win-control-panel.png)
+
+Control Panel generally contains more advanced and detailed system configuration options.
+
+---
+
+## TASK MANAGER
+
+Task Manager provides information about:
+
+- running applications
+- processes
+- system performance
+
+It also displays:
+
+| Resource | What It Shows |
+|---|---|
+| CPU | Processor usage |
+| RAM | Memory usage |
+| Disk | Disk activity |
+| Network | Network utilization |
+
+Task Manager can be opened quickly by right-clicking the taskbar or by using the Ctrl+Shift+Esc shortcut.
+
+---
+
+## TAKEAWAY
+
+Even though Windows has been my primary operating system for many years, this room still managed to humble me a bit. I had encountered plenty of UAC “allow this app to make changes” pop-ups before, but I never really understood how UAC works or what its actual purpose is. I was already somewhat familiar with most of the other concepts covered here, but the room still served as a useful refresher. It reinforced the idea that understanding the fundamentals properly matters, especially when approaching IT as a technician rather than just a regular user.
