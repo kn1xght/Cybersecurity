@@ -30,10 +30,10 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 
 ## 🎯 Goals
 
-- Develop practical enterprise IT support skills
-- Strengthen troubleshooting and problem-solving abilities
-- Reinforce theoretical knowledge through hands-on labs
-- Practice writing 
+- Develop a strong theoretical understanding of core cybersecurity concepts. 
+- Gain hands-on experience with defensive cybersecurity tools and methodologies.
+- Expand foundational knowledge of networking and operating systems
+- Practice documenting security findings through clear, structured security write-ups.
 
 ---
 
