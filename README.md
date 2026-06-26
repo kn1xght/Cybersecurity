@@ -30,10 +30,10 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 
 ## 🎯 Goals
 
-- Develop a strong theoretical understanding of core cybersecurity concepts. 
-- Gain hands-on experience with defensive cybersecurity tools and methodologies.
+- Develop a strong theoretical understanding of core cybersecurity concepts
+- Gain hands-on experience with defensive cybersecurity tools and methodologies
 - Expand foundational knowledge of networking and operating systems
-- Practice documenting security findings through clear, structured security write-ups.
+- Practice documenting security findings through clear, structured security write-ups
 
 ---
 
