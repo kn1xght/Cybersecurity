@@ -21,8 +21,8 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 
 ## 🚀 Progress
 
-| Project | Status |
-|----------|--------|
+| Project | Status | 
+|:--|:--|
 | Cybersecurity 101 | 🟡 In Progress | Current topic: Windows Fundamentals 1 |
 | SOC Level 1 | ⚪ Planned |
 
