@@ -1,5 +1,5 @@
 # 🧠 Cybersecurity Portfolio
-Documenting my journey from cybersecurity fundamentals toward becoming a job-ready **SOC Analyst** through hands-on labs and blue team learning paths.
+Structured technical write-ups capturing key cybersecurity concepts and techniques learned through platforms like TryHackMe, Hack The Box, and others.
 
 ---
 
@@ -31,16 +31,9 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 ## 🎯 Goals
 
 - Develop a strong theoretical understanding of core cybersecurity concepts
-- Gain hands-on experience with defensive cybersecurity tools and methodologies
+- Gain hands-on experience with defensive security tools and methodologies
 - Expand foundational knowledge of networking and operating systems
 - Practice documenting security findings through clear, structured security write-ups
-
----
-
-## 🛠️ Tools & Platforms
-- **Try Hack Me / Hack The Box** (guided practical learning)
-- **Visual Studio Code** (for writing and formatting notes)
-- **Github** (for version control and documentation)
 
 ---
 
