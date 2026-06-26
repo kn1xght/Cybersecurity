@@ -19,6 +19,24 @@ Documenting my journey from cybersecurity fundamentals toward becoming a job-rea
 
 ---
 
+## 🚀 Progress
+
+| Project | Status |
+|----------|--------|
+| Cybersecurity 101 | 🟡 In Progress | Current topic: Windows Fundamentals 1 |
+| SOC Level 1 | ⚪ Planned |
+
+---
+
+## 🎯 Goals
+
+- Develop practical enterprise IT support skills
+- Strengthen troubleshooting and problem-solving abilities
+- Reinforce theoretical knowledge through hands-on labs
+- Practice writing 
+
+---
+
 ## 🛠️ Tools & Platforms
 - **Try Hack Me / Hack The Box** (guided practical learning)
 - **Visual Studio Code** (for writing and formatting notes)
