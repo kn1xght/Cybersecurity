@@ -1,24 +1,21 @@
 # 🧠 Cybersecurity Portfolio
 Structured technical write-ups based on completed learning paths and labs on TryHackMe, Hack The Box, and other cybersecurity educational platforms. Each write-up includes key concepts, screenshots, and a concise takeaway.
 
----
-
-## 📂 Try Hack Me
+## 📂 TryHackMe
 
 | Module | Description |
 |:--|:--|
 | [Cybersecurity-101](Cybersecurity-101) | Windows & Linux Fundamentals, SIEM, Active Directory, Cryptography, Defensive Security |
 | [SOC-Level-1](SOC-Level-1) | Splunk & Elastic, EDR, Alert Triage, Log Analysis, Phishing, MITRE ATT&CK |
 
----
-
+<!--
 ## 📂 Hack The Box
 
 | Module | Description |
 |:--|:--|
 
 ---
-
+-->
 ## 🚀 Progress
 
 | Module | Status | Current Topic |
@@ -26,16 +23,12 @@ Structured technical write-ups based on completed learning paths and labs on Try
 | Cybersecurity 101 | 🟡 In Progress | Windows Fundamentals 1 |
 | SOC Level 1 | ⚪ Planned | - |
 
----
-
 ## 🎯 Goals
 
 - Develop a strong theoretical understanding of core cybersecurity concepts
 - Gain hands-on experience with defensive security tools and methodologies
 - Expand foundational knowledge of networking and operating systems
 - Practice documenting security findings through clear, structured security write-ups
-
----
 
 ## 💬 Message to Readers
 Feedback and constructive criticism are always welcome as I continue improving and expanding this portfolio.
