@@ -5,8 +5,8 @@ Structured technical write-ups based on completed learning paths and hands-on la
 
 | Module | Description |
 |:--|:--|
-| [Cybersecurity-101](Cybersecurity-101) | Windows & Linux Fundamentals, SIEM, Active Directory, Cryptography, Defensive Security |
-| [SOC-Level-1](SOC-Level-1) | Splunk & Elastic, EDR, Alert Triage, Log Analysis, Phishing, MITRE ATT&CK |
+| [Cybersecurity 101](Cybersecurity-101) | Windows & Linux Fundamentals, SIEM, Active Directory, Cryptography, Defensive Security |
+| [SOC Level 1](SOC-Level-1) | Splunk & Elastic, EDR, Alert Triage, Log Analysis, Phishing, MITRE ATT&CK |
 
 <!--
 ## 📂 Hack The Box
