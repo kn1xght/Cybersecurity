@@ -5,7 +5,7 @@ Structured technical write-ups based on completed learning paths and hands-on la
 
 | Module | Description |
 |:--|:--|
-| [Cybersecurity 101](Cybersecurity-101) | Windows & Linux fundamentals, SIEM, Active Directory, cryptography, defensive Security |
+| [Cybersecurity 101](Cybersecurity-101) | Windows & Linux fundamentals, SIEM, Active Directory, cryptography, defensive security |
 | [SOC Level 1](SOC-Level-1) | Splunk & Elastic, EDR, alert Triage, log Analysis, phishing, MITRE ATT&CK |
 
 <!--
