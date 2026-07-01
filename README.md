@@ -28,7 +28,7 @@ Structured technical write-ups based on completed learning paths and hands-on la
 - Develop a strong theoretical understanding of core cybersecurity concepts
 - Gain hands-on experience with defensive security tools and methodologies
 - Expand foundational knowledge of networking and operating systems
-- Practice documenting security findings through clear, structured security write-ups
+- Practice documenting security findings through clear, structured write-ups
 
 ## 💬 Message to Readers
 Feedback and constructive criticism are always welcome as I continue improving and expanding this portfolio.
