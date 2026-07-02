@@ -25,9 +25,9 @@ Structured technical write-ups based on completed learning paths and hands-on la
 
 ## 🎯 Goals
 
-- Develop a strong theoretical understanding of core cybersecurity concepts
-- Gain hands-on experience with defensive security tools and methodologies
-- Expand foundational knowledge of networking and operating systems
+- Develop a strong understanding of core cybersecurity concepts
+- Strengthen networking and operating system fundamentals
+- Gain hands-on experience with defensive security tools and SOC workflows
 - Practice documenting security findings through clear, structured write-ups
 
 ## 💬 Message to Readers
